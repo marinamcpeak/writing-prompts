@@ -1,5 +1,6 @@
 const fs = require('fs');
 const RedditScraper = require("reddit-scraper");
+const bannedTerms = ['[AP]', '[EU]', 'r/WritingPrompts', 'r/writingprompts'];
  
 (async () => {
   const redditScraperOptions = {
